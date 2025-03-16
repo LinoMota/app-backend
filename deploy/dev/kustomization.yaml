@@ -1,0 +1,13 @@
+bases:
+  - ../../base
+
+namePrefix: dev-
+
+images:
+- name: hello-world
+  newTag: latest
+
+configMapGenerator:
+  - envs:
+      - .env.dev
+    name: envs
