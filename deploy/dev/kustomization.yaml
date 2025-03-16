@@ -10,4 +10,4 @@ images:
 configMapGenerator:
   - envs:
       - .env.dev
-    name: envs
+    name: app-backend-env
