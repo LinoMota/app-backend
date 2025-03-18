@@ -7,8 +7,10 @@ bases:
 namePrefix: dev-
 
 images:
-- name: hello-world
+- name: kind-registry:5000/app-backend
+  newName: hello-world
   newTag: latest
+
 
 configMapGenerator:
   - envs:
