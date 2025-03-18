@@ -7,9 +7,9 @@ bases:
 namePrefix: dev-
 
 images:
-- name: kind-registry:5000/app-backend
-  newName: nginx
-  newTag: 1.26.3
+- name: linomota0/app-backend
+  newName: linomota0/app-backend
+  newTag: v0
 
 
 configMapGenerator:

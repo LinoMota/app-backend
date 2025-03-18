@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: kind-registry:5000/app-backend
+          image: linomota0/app-backend
           imagePullPolicy: Always
           envFrom:
             - configMapRef:
