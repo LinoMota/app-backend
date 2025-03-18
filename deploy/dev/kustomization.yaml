@@ -9,7 +9,7 @@ namePrefix: dev-
 images:
 - name: kind-registry:5000/app-backend
   newName: nginx
-  newTag: latest
+  newTag: 1.26.3
 
 
 configMapGenerator:
