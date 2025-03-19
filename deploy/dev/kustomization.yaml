@@ -9,7 +9,7 @@ namePrefix: dev-
 images:
 - name: linomota0/app-backend
   newName: linomota0/app-backend
-  newTag: v0
+  newTag: v50
 
 
 configMapGenerator:
